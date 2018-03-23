@@ -6,7 +6,6 @@ class PokemonsController < ApplicationController
 		@pokemon = Pokemon.new(pokemon_params)
 		@pokemon.health = 100
 		@pokemon.level = 1
-		@pokemon.name = 
 		@pokemon.trainer_id = current_trainer.id
 		if @pokemon.save
 			redirect_to trainer_path(id: @pokemon.trainer_id)
