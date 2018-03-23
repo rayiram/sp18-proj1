@@ -17,8 +17,12 @@ redirect_to trainer_path(id: @pokemon.trainer_id)
 and it needed the id of the pokemon's trainer to go back to the trainer's page.
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
-
+takes the message to sentence form from errors handler and flash shows it to user
 
 # Give us feedback on the project and decal below!
+weeeee
+the devise edits were annoying
+this was cool though
 
 # Extra credit: Link your Heroku deployed app
+https://hidden-temple-97008.herokuapp.com/
